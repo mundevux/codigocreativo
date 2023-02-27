@@ -31,12 +31,12 @@ export function AppHeader() {
                                 <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0">
                                     <li>
                                         <a href="#features" className="block md:px-4 transition hover:text-primary">
-                                            <span>Features</span>
+                                            <span>Inicio</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#solution" className="block md:px-4 transition hover:text-primary">
-                                            <span>Solution</span>
+                                            <span>Soluciones</span>
                                         </a>
                                     </li>
                                     <li>

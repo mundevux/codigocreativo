@@ -56,21 +56,21 @@ export function HeroSection() {
                         </p>
                         <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
                             <a href="#" className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
-                                <span className="relative text-base font-semibold text-white">Agenda una cita</span>
+                                <span className="relative text-base font-semibold text-white">Agenda una cita <i className="fa-regular fa-calendar ml-2"></i></span>
                             </a>
                         </div>
                         <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
                             <div className="text-left">
-                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">The lowest price</h6>
-                                <p className="mt-2 text-gray-500">Some text here</p>
+                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">Comprension del píblico objetivo</h6>
+                                <p className="mt-2 text-gray-500">Nos enfocamos en comprender el público de nuestros clientes, creando estrategias personalizadas para llegar ese público.</p>
                             </div>
                             <div className="text-left">
-                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">The fastest on the market</h6>
-                                <p className="mt-2 text-gray-500">Some text here</p>
+                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">Enfoque en la creatividad</h6>
+                                <p className="mt-2 text-gray-500">Tenemos un enfoque innovador y creativo el cual nos permite ofrecer soluciones únicas a los desafíos de marketing.</p>
                             </div>
                             <div className="text-left">
-                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">The most loved</h6>
-                                <p className="mt-2 text-gray-500">Some text here</p>
+                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">Especialización en múltiples canales</h6>
+                                <p className="mt-2 text-gray-500">Nos especializamos en múltiples canales, desde SEO y PPC hasta marketing de contenido, redes sociales y más.</p>
                             </div>
                         </div>
                     </div>
