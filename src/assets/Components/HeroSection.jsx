@@ -56,7 +56,7 @@ export function HeroSection() {
                         </p>
                         <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
                             <a href="#" className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
-                                <span className="relative text-base font-semibold text-white">Agenda una cita <i className="fa-regular fa-calendar ml-2"></i></span>
+                                <span className="relative text-base font-semibold text-white"><i className="fa-regular fa-calendar mr-2"></i>Agenda una cita</span>
                             </a>
                         </div>
                         <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">

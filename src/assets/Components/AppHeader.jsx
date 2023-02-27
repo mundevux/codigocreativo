@@ -1,4 +1,6 @@
 
+import Logo from '/public/images/codcreativo.svg';
+
 export function AppHeader() {
     return (
         <header>
@@ -9,7 +11,7 @@ export function AppHeader() {
                         <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
                             <a href="#home" aria-label="logo" className="flex space-x-2 items-center">
                                 <div aria-hidden="true" className="flex space-x-1">
-                                    <img src="../images/codcreativo.svg" alt="logo" className="h-8 w-8 rounded-full"></img>
+                                    <img src={Logo} alt="logo" className="h-8 w-8 rounded-full"></img>
                                 </div>
                                 <span className="text-2xl font-bold text-gray-900 dark:text-white">Código Creativo</span>
                             </a>
