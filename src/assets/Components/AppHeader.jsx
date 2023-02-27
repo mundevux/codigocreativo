@@ -37,20 +37,20 @@ export function AppHeader() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#solution" className="block md:px-4 transition text-base text-[#00223B] hover:text-primary dark:text-white">
+                                        <a href="#solutions" className="block md:px-4 transition text-base text-[#00223B] hover:text-primary dark:text-white">
                                             <span>Soluciones</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#testimonials" className="block md:px-4 transition text-base text-[#00223B] hover:text-primary dark:text-white">
-                                            <span>Testimonials</span>
+                                        <a href="#contact" className="block md:px-4 transition text-base text-[#00223B] hover:text-primary dark:text-white">
+                                            <span>Contacto</span>
                                         </a>
                                     </li>
-                                    <li>
+                                    {/*<li>
                                         <a href="#blog" className="block md:px-4 transition text-base text-[#00223B] hover:text-primary dark:text-white">
                                             <span>Blog</span>
                                         </a>
-                                    </li>
+                                    </li>*/}
                                 </ul>
                             </div>
 

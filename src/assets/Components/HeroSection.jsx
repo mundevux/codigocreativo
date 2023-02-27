@@ -3,7 +3,7 @@ import { useState, useEffect} from 'react'
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 import '../../index.css'
 
-const arrayOfWords = ['Branding', 'Marketing Digital', 'Social Ads', 'SEO', 'Estrategia de Contenido'];
+const arrayOfWords = ['Branding', 'Marketing Digital', 'Desarrolo Web'];
 
 export function HeroSection() {
     
