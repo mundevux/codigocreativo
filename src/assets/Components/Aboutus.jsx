@@ -1,6 +1,8 @@
-export function Features() {
+import marketingIcon from '/public/images/icons/megafono.png'
+
+export function Aboutus() {
     return (
-        <div id="features">
+        <div id="Aboutus">
             <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
                 <div className="md:w-2/3 lg:w-1/2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-secondary">
@@ -8,10 +10,11 @@ export function Features() {
                     </svg>
 
                     <h2 className="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
-                        A technology-first approach to payments
-                        and finance
+                        Acerca de nosotros
                     </h2>
-                    <p className="text-gray-600 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, fugit laborum in atque amet obcaecati? Nisi minima aspernatur, quidem nulla cupiditate nam consequatur eligendi magni adipisci.</p>
+                    <p className="text-gray-600 dark:text-gray-300">
+                        Somos una agencia de marketing digital que se especializa en ayudar a las empresas a mejorar su presencia en línea. Nuestro equipo está formado por expertos en marketing digital, diseño web y desarrollo de software. Nos enorgullece ofrecer a nuestros clientes soluciones personalizadas que se adaptan a sus necesidades específicas. Con una amplia gama de servicios, desde el diseño de sitios web hasta la gestión de redes sociales, estamos aquí para ayudarte a alcanzar tus objetivos de negocio.
+                    </p>
                 </div>
 
                 <div
@@ -20,18 +23,18 @@ export function Features() {
                     <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
                         <div className="relative space-y-8 py-12 p-8">
                             <img
-                                src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png"
+                                src={marketingIcon}
                                 className="w-12"
                                 width="512"
                                 height="512"
-                                alt="burger illustration"
+                                alt="Marketing illustration"
                             />
 
                             <div className="space-y-2">
                                 <h5
                                     className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary"
                                 >
-                                    First feature
+                                    Marketing Digital
                                 </h5>
                                 <p className="text-gray-600 dark:text-gray-300">
                                     Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.

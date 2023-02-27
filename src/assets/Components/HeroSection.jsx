@@ -61,7 +61,7 @@ export function HeroSection() {
                         </div>
                         <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
                             <div className="text-left">
-                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">Comprension del píblico objetivo</h6>
+                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">Comprension del público objetivo</h6>
                                 <p className="mt-2 text-gray-500">Nos enfocamos en comprender el público de nuestros clientes, creando estrategias personalizadas para llegar ese público.</p>
                             </div>
                             <div className="text-left">
@@ -74,6 +74,7 @@ export function HeroSection() {
                             </div>
                         </div>
                     </div>
+                    {/* Seccion correspondiente a los logos de los clientes
                     <div className="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
                         <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
                             <img src="./images/clients/microsoft.svg" className="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
@@ -94,6 +95,7 @@ export function HeroSection() {
                             <img src="./images/clients/google-cloud.svg" className="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
                         </div>
                     </div>
+                    */}
                 </div>
             </div>
         </div>

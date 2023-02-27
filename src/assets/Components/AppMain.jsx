@@ -1,4 +1,4 @@
-import { Features } from './Features';
+import { Aboutus } from './Aboutus';
 import { HeroSection } from './HeroSection';
 import { Stats } from './Stats';
 import { Testimonials } from './Testimonials';
@@ -9,7 +9,7 @@ export function AppMain() {
     return(
         <main className="space-y-40 mb-40">
             <HeroSection/>
-            <Features/>
+            <Aboutus/>
             <Stats/>
             <Testimonials/>
             <CallToAction/>
