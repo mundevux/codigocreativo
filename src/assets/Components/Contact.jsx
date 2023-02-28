@@ -1,10 +1,22 @@
 export function Contac() {
     return (
         <div className="text-gray-600 dark:text-gray-300" id="contact">
-            <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 md:flex md:items-center gap-6">
-                <form className="md:5/12 lg:w-1/2 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none border">
+            <div className="md:flex md:flex-col md:items-center gap-6">
+                <div className="mx-8 mb-6">
+                    <h2 className="my-8 text-2xl text-center font-bold text-[#00223B] dark:text-white md:text-5xl">
+                        TRABAJA CON NOSOTROS
+                    </h2>
+                    <p className="mt-8 text-gray-700 text-4xl text-center dark:text-gray-300">
+                        Déjanos tus datos y nos pondremos en contacto contigo.
+                    </p>
+                    <p className="mt-4 font-bold text-[#00223B] text-4xl text-center dark:text-primary">
+                        ¡Estás a un paso de tu transformación digital!
+                    </p>
+                </div>
+                
+                <form className="md:5/12 lg:w-1/2 mx-8 rounded-3xl bg-white dark:bg-gray-800 dark:border-gray-700 shadow-2xl shadow-gray-600/10 dark:shadow-none border">
                     <div className="px-6 md:px-8 py-4 ">
-                        <label className="block text-base font-medium text-gray-700 dark:text-gray-200" htmlFor="name">
+                        <label className="block text-lg font-medium text-gray-700 dark:text-gray-200" htmlFor="name">
                             Nombres Completos:
                         </label>
                         <div className="mt-1 mb-4">
@@ -13,10 +25,10 @@ export function Contac() {
                                 name="name"
                                 id="name"
                                 placeholder="Juan Perez"
-                                className="block w-full shadow-sm sm:text-sm border-gray-300 rounded-md dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 px-4 py-1 "
+                                className="block w-full shadow-sm sm:text-base border-gray-300 rounded-md dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 px-4 py-1 "
                             />
                         </div>
-                        <label className="block text-base font-medium text-gray-700 dark:text-gray-200" htmlFor="email">
+                        <label className="block text-lg font-medium text-gray-700 dark:text-gray-200" htmlFor="email">
                             Correo Electrónico:
                         </label>
                         <div className="mt-1 mb-4">
@@ -25,10 +37,10 @@ export function Contac() {
                                 name="email"
                                 id="email"
                                 placeholder="juanperez@email.com"
-                                className="block w-full shadow-sm sm:text-sm border-gray-300 rounded-md dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 px-4 py-1 "
+                                className="block w-full shadow-sm sm:text-base border-gray-300 rounded-md dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 px-4 py-1 "
                             />
                         </div>
-                        <label className="block text-base font-medium text-gray-700 dark:text-gray-200" htmlFor="phone">
+                        <label className="block text-lg font-medium text-gray-700 dark:text-gray-200" htmlFor="phone">
                             Teléfono:
                         </label>
                         <div className="mt-1 mb-4">
@@ -37,10 +49,10 @@ export function Contac() {
                                 name="phone"
                                 id="phone"
                                 placeholder="(+51) 999 999 999"
-                                className="block w-full shadow-sm sm:text-sm border-gray-300 rounded-md dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 px-4 py-1 "
+                                className="block w-full shadow-sm sm:text-base border-gray-300 rounded-md dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 px-4 py-1 "
                             />
                         </div>
-                        <label className="block text-base font-medium text-gray-700 dark:text-gray-200" htmlFor="message">
+                        <label className="block text-lg font-medium text-gray-700 dark:text-gray-200" htmlFor="message">
                             Mensaje:
                         </label>
                         <div className="mt-1 mb-4">
@@ -49,19 +61,21 @@ export function Contac() {
                                 id="message"
                                 rows="3"
                                 placeholder="Escribe tu mensaje aquí..."
-                                className="block w-full shadow-sm sm:text-sm border-gray-300 rounded-md dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 px-4 py-1 "
+                                className="block w-full shadow-sm sm:text-base border-gray-300 rounded-md dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 px-4 py-1 "
                             ></textarea>
                         </div>
+                        <div class="flex justify-center">
+                        <a
+                            href="#"
+                            class="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                            >
+                            <span class="relative text-lg font-semibold text-white"
+                                >Enviar</span
+                            >
+                        </a>
+                    </div>
                     </div>
                 </form>
-                <div className="md:w-2/3 lg:w-1/2">
-                    <h2 className="my-8 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
-                        Hablemos
-                    </h2>
-                    <p className="text-gray-600 dark:text-gray-300">
-                        ¿Estás interesado/a en trabajar con nosotros? Contáctanos hoy mismo para obtener más información sobre nuestros servicios y cómo podemos ayudarte a mejorar tu presencia en línea. Ya sea que prefieras enviar un correo electrónico o llamar por teléfono, nuestro equipo está aquí para responder a tus preguntas y ayudarte en todo lo que necesites. ¡Esperamos saber de ti pronto!
-                    </p>
-                </div>
             </div>
         </div>
     )

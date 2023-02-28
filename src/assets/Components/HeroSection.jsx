@@ -3,7 +3,7 @@ import { useState, useEffect} from 'react'
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 import '../../index.css'
 
-const arrayOfWords = ['Branding', 'Marketing Digital', 'Desarrolo Web'];
+const arrayOfWords = ['Branding', 'Marketing', 'Desarrollo Web'];
 
 export function HeroSection() {
     
@@ -24,18 +24,16 @@ export function HeroSection() {
         return () => clearInterval(interval);
     }, []);
 
-    console.log(paragraphsCounter);
-
     return (
         <div className="relative" id="home">
             <div aria-hidden="true" className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
-                <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
-                <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+                <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-600 dark:from-blue-900"></div>
+                <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-900 to-sky-800 dark:to-indigo-800"></div>
             </div>
             <div className="mx-auto px-6 md:px-12 xl:px-6">
                 <div className="relative pt-36 ml-auto">
                     <div className="lg:w-2/3 text-center mx-auto">
-                        <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">
+                        <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl mb-4">
                             Somos tu mejor aliado en <br></br>
                             <SwitchTransition>
                                 <CSSTransition
@@ -48,11 +46,11 @@ export function HeroSection() {
                             </SwitchTransition>
                             .
                         </h1>
-                        <p className="mt-8 text-gray-700 dark:text-gray-300">
-                            Bienvenido/a a nuestra agencia. Somos un equipo de expertos en marketing digital comprometidos en ayudar a nuestros clientes a alcanzar los objetivos de su negocio. Con nuestra combinación única de estrategias innovadoras y creativas, podemos ayudarte a mejorar tu presencia en línea y aumentar tus ventas. 
+                        <p className="mt-8 text-gray-700 dark:text-gray-300 ">
+                            Bienvenid@ a nuestra agencia. Somos un equipo de expertos en marketing digital comprometidos en ayudar a nuestros clientes a alcanzar los objetivos de su negocio. Con nuestra combinación única de estrategias innovadoras y creativas, podemos ayudarte a mejorar tu presencia en línea y aumentar tus ventas. 
                         </p>
                         <p className="mt-8 text-gray-700 dark:text-gray-300">
-                            ¿Estás listo/a para empezar a trabajar con nosotros?
+                            ¿Estás list@ para empezar a trabajar con nosotros?
                         </p>
                         <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
                             <a href="#" className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
