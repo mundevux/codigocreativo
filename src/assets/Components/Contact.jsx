@@ -3,13 +3,13 @@ export function Contac() {
         <div className="text-gray-600 dark:text-gray-300" id="contact">
             <div className="md:flex md:flex-col md:items-center gap-6">
                 <div className="mx-8 mb-6">
-                    <h2 className="my-8 text-2xl text-center font-bold text-[#00223B] dark:text-white md:text-5xl">
+                    <h2 className="my-8 text-4xl text-center font-bold text-[#00223B] dark:text-white md:text-5xl">
                         TRABAJA CON NOSOTROS
                     </h2>
-                    <p className="mt-8 text-gray-700 text-4xl text-center dark:text-gray-300">
+                    <p className="mt-8 text-gray-700 text-2xl text-center dark:text-gray-300">
                         Déjanos tus datos y nos pondremos en contacto contigo.
                     </p>
-                    <p className="mt-4 font-bold text-[#00223B] text-4xl text-center dark:text-primary">
+                    <p className="mt-4 font-bold text-[#00223B] text-3xl text-center dark:text-primary">
                         ¡Estás a un paso de tu transformación digital!
                     </p>
                 </div>
