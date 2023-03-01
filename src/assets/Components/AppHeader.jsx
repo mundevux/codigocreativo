@@ -57,13 +57,13 @@ export function AppHeader() {
                             <div className='flex justify-center'>
                                 <div className="mt-12 lg:mt-0">
                                     <a href="https://www.facebook.com/codcreativo" className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full text-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max" target='_blank'>
-                                        <span className="relative text-xl font-semibold dark:text-white text-primary"><i class="fa-brands fa-facebook"></i></span>
+                                        <span className="relative text-xl font-semibold dark:text-white text-primary"><i className="fa-brands fa-facebook"></i></span>
                                     </a>
                                 </div>
 
                                 <div className="mt-12 lg:mt-0">
                                     <a href="https://www.instagram.com/codcreativo/" className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full text-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max" target='_blank'>
-                                        <span className="relative text-xl font-semibold dark:text-white text-primary"><i class="fa-brands fa-instagram"></i></span>
+                                        <span className="relative text-xl font-semibold dark:text-white text-primary"><i className="fa-brands fa-instagram"></i></span>
                                     </a>
                                 </div>
                             </div>

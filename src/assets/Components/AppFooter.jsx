@@ -27,7 +27,7 @@ export function AppFooter() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="transition hover:text-primary px-2">
+                  <a href="#contact" className="transition hover:text-primary px-2">
                     Contacto
                   </a>
                 </li>
