@@ -46,10 +46,10 @@ export function HeroSection() {
                             </SwitchTransition>
                             .
                         </h1>
-                        <p className="mt-8 text-gray-700 dark:text-gray-300 ">
+                        <p className="mt-8 text-gray-700 dark:text-gray-300 text-lg">
                             Bienvenid@ a nuestra agencia. Somos un equipo de expertos en marketing digital comprometidos en ayudar a nuestros clientes a alcanzar los objetivos de su negocio. Con nuestra combinación única de estrategias innovadoras y creativas, podemos ayudarte a mejorar tu presencia en línea y aumentar tus ventas. 
                         </p>
-                        <p className="mt-8 text-gray-700 dark:text-gray-300">
+                        <p className="mt-8 text-2xl text-[#00223B] dark:text-secondary font-semibold">
                             ¿Estás list@ para empezar a trabajar con nosotros?
                         </p>
                         <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">

@@ -8,7 +8,7 @@ import { Contac } from './Contact';
 
 export function AppMain() {
     return(
-        <main className="space-y-40 mb-40">
+        <main className="space-y-40 mb-10">
             <HeroSection/>
             <Aboutus/>
             <Solutions/>

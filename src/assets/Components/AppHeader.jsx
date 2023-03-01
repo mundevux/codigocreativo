@@ -32,7 +32,7 @@ export function AppHeader() {
                             <div className="text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0">
                                 <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0">
                                     <li>
-                                        <a href="#Aboutus" className="block md:px-4 transition text-base text-[#00223B] hover:text-primary dark:text-white ">
+                                        <a href="#aboutus" className="block md:px-4 transition text-base text-[#00223B] hover:text-primary dark:text-white ">
                                             <span>Nosotros</span>
                                         </a>
                                     </li>
@@ -56,13 +56,13 @@ export function AppHeader() {
 
                             <div className='flex justify-center'>
                                 <div className="mt-12 lg:mt-0">
-                                    <a href="https://www.facebook.com/codcreativo" className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full text-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                                    <a href="https://www.facebook.com/codcreativo" className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full text-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max" target='_blank'>
                                         <span className="relative text-xl font-semibold dark:text-white text-primary"><i class="fa-brands fa-facebook"></i></span>
                                     </a>
                                 </div>
 
                                 <div className="mt-12 lg:mt-0">
-                                    <a href="#" className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full text-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                                    <a href="https://www.instagram.com/codcreativo/" className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full text-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max" target='_blank'>
                                         <span className="relative text-xl font-semibold dark:text-white text-primary"><i class="fa-brands fa-instagram"></i></span>
                                     </a>
                                 </div>
