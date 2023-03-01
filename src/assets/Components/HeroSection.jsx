@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect} from 'react'
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 import '../../index.css'
+import CalendlyButton from './Calendly';
 
 const arrayOfWords = ['Branding.', 'Marketing.', 'Desarrollo Web.'];
 
@@ -52,9 +53,7 @@ export function HeroSection() {
                             ¿Estás list@ para empezar a trabajar con nosotros?
                         </p>
                         <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-                            <a href="#" className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
-                                <span className="relative text-base font-semibold text-white"><i className="fa-regular fa-calendar mr-2"></i>Agenda una cita</span>
-                            </a>
+                            <CalendlyButton />
                         </div>
                         <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
                             <div className="text-left">
