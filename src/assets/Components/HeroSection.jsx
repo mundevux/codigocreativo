@@ -3,7 +3,7 @@ import { useState, useEffect} from 'react'
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 import '../../index.css'
 
-const arrayOfWords = ['Branding', 'Marketing', 'Desarrollo Web'];
+const arrayOfWords = ['Branding.', 'Marketing.', 'Desarrollo Web.'];
 
 export function HeroSection() {
     
@@ -44,10 +44,9 @@ export function HeroSection() {
                                     <span> {arrayOfWords[paragraphsCounter]}</span>
                                 </CSSTransition>
                             </SwitchTransition>
-                            .
                         </h1>
                         <p className="mt-8 text-gray-700 dark:text-gray-300 text-lg">
-                            Bienvenid@ a nuestra agencia. Somos un equipo de expertos en marketing digital comprometidos en ayudar a nuestros clientes a alcanzar los objetivos de su negocio. Con nuestra combinación única de estrategias innovadoras y creativas, podemos ayudarte a mejorar tu presencia en línea y aumentar tus ventas. 
+                            Bienvenid@ a nuestra agencia. Somos un equipo de expertos en <b>marketing digital</b> comprometidos en ayudar a nuestros clientes a alcanzar los <b>objetivos de su negocio</b>. Con nuestra combinación única de estrategias <b>innovadoras y creativas</b>, podemos ayudarte a mejorar tu <b>presencia en línea</b> y aumentar tus ventas. 
                         </p>
                         <p className="mt-8 text-2xl text-[#00223B] dark:text-secondary font-semibold">
                             ¿Estás list@ para empezar a trabajar con nosotros?

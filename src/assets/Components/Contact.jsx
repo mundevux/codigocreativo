@@ -6,7 +6,7 @@ export function Contac() {
             <div className="md:flex md:flex-col md:items-center gap-6">
                 <div className="mx-8 mb-6">
                     <h2 className="my-8 text-4xl text-center font-bold text-[#00223B] dark:text-white md:text-5xl">
-                        TRABAJA CON NOSOTROS
+                        Trabaja con Nosotros
                     </h2>
                     <p className="mt-8 text-gray-700 text-2xl text-center dark:text-gray-300">
                         Déjanos tus datos y nos pondremos en contacto contigo.

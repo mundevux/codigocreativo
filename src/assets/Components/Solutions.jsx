@@ -12,22 +12,19 @@ export function Solutions() {
                     <path fillRule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z" clipRule="evenodd" />
                     <path fillRule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z" clipRule="evenodd" />
                 </svg>
-
                 <div className="space-y-6 text-gray-600 md:flex  md:gap-6 md:space-y-0 lg:gap-12 lg:items-center">
-
                     <div className="md:7/12 lg:w-1/2">
                         <h2 className="text-3xl font-bold text-gray-900 md:text-4xl dark:text-white my-8">
                             Nuestros Servicios
                         </h2>
-                        <p className="my-8 text-gray-600 dark:text-gray-300 text-lg">En nuestra agencia ofrecemos una amplia gama de servicios para ayudarte a mejorar tu presencia en línea. Desde el diseño y desarrollo de sitios web hasta la optimización de motores de búsqueda y la gestión de redes sociales, nuestro equipo está capacitado para ofrecerte soluciones personalizadas que se adaptan a tus necesidades específicas. Ya sea que estés buscando aumentar tus ventas o mejorar tu imagen de marca, estamos aquí para ayudarte.</p>
-                            </div>
                     </div>
+                </div>
 
-                    <div
-                        className="mt-16 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4"
-                    >
-                        <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-                            <div className="relative space-y-8 py-12 p-8">
+                <div
+                        className="mt-8 grid divide-x divide-y divide-gray-100 dark:divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 dark:border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4"
+                >
+                    <div className="group relative bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+                        <div className="relative space-y-8 py-12 p-8">
                                 <img
                                     src={creativoIcon}
                                     className="w-12"
@@ -115,7 +112,7 @@ export function Solutions() {
                                         Y muhco más...
                                     </h5>
                                     <p className="text-gray-600 dark:text-gray-300">
-                                        Ofrecemos una amplia gama de servicios para que tu negocio se destaque en el mercado, investigandolo detalladamente para ofrecer la mejor solución.
+                                        Ofrecemos una amplia gama de servicios para que tu negocio se destaque, investigando el mercado detalladamente para ofrecerte la mejor solución.
                                     </p>
                                 </div>
                             
