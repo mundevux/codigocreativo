@@ -57,8 +57,8 @@ export function HeroSection() {
                         </div>
                         <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
                             <div className="text-left">
-                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">Comprension del público objetivo</h6>
-                                <p className="mt-2 text-gray-500">Nos enfocamos en comprender el público de nuestros clientes, creando estrategias personalizadas para llegar ese público.</p>
+                                <h6 className="text-lg font-semibold text-gray-700 dark:text-white">Comprensión del público objetivo</h6>
+                                <p className="mt-2 text-gray-500">Nos enfocamos en comprender el público de nuestros clientes, creando estrategias personalizadas para un mayor alcance.</p>
                             </div>
                             <div className="text-left">
                                 <h6 className="text-lg font-semibold text-gray-700 dark:text-white">Enfoque en la creatividad</h6>

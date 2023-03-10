@@ -85,7 +85,7 @@ export function Solutions() {
                                         Branding
                                     </h5>
                                     <p className="text-gray-600 dark:text-gray-300">
-                                        Creamos una imgen e identidad unica permintiendo que nuestros clientes se destaquen en un mercado cada vez mas competitivo. 
+                                        Creamos una imagen e identidad unica permintiendo que nuestros clientes se destaquen en un mercado cada vez mas competitivo. 
                                     </p>
                                 </div>
                                 
@@ -109,7 +109,7 @@ export function Solutions() {
                                     <h5
                                         className="text-xl font-semibold text-gray-700 dark:text-white transition group-hover:text-secondary"
                                     >
-                                        Y muhco más...
+                                        Y mucho más...
                                     </h5>
                                     <p className="text-gray-600 dark:text-gray-300">
                                         Ofrecemos una amplia gama de servicios para que tu negocio se destaque, investigando el mercado detalladamente para ofrecerte la mejor solución.
