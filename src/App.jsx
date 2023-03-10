@@ -16,9 +16,9 @@ export default function App() {
 
   return (
     
-    <div >
-        {loading ? <Spinner /> : <AppHeader  />}
-        
+    <div onLoad={() => setLoading(false)}>
+        {loading && <Spinner />}
+        <AppHeader  />
         <AppMain />
         <AppFooter />
     </div>
